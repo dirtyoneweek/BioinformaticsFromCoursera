@@ -5,7 +5,7 @@
 """
 #Chunyu Zhao 20150902
 
-import sys,1.1.PatternCount as pc
+import sys,Assignment_1_1_PatternCount as pc
 
 def frequent_words(text,k):
 	count = [0] * (len(text) - k + 1)
